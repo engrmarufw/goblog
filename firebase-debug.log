@@ -1,0 +1,163 @@
+[debug] [2023-10-04T04:26:16.563Z] ----------------------------------------------------------------------
+[debug] [2023-10-04T04:26:16.566Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Maruf Ahamed\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2023-10-04T04:26:16.567Z] CLI Version:   12.6.1
+[debug] [2023-10-04T04:26:16.567Z] Platform:      win32
+[debug] [2023-10-04T04:26:16.568Z] Node Version:  v18.18.0
+[debug] [2023-10-04T04:26:16.569Z] Time:          Wed Oct 04 2023 10:26:16 GMT+0600 (Bangladesh Standard Time)
+[debug] [2023-10-04T04:26:16.569Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-10-04T04:26:16.791Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-10-04T04:26:16.794Z] > authorizing via signed-in user (engrmarufw@gmail.com)
+[debug] [2023-10-04T04:26:16.795Z] [iam] checking project blogpost-engrmarufw for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-10-04T04:26:16.801Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/blogpost-engrmarufw:testIamPermissions [none]
+[debug] [2023-10-04T04:26:16.802Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/blogpost-engrmarufw:testIamPermissions x-goog-quota-user=projects/blogpost-engrmarufw
+[debug] [2023-10-04T04:26:16.802Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/blogpost-engrmarufw:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-10-04T04:26:18.571Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/blogpost-engrmarufw:testIamPermissions 200
+[debug] [2023-10-04T04:26:18.572Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/blogpost-engrmarufw:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-10-04T04:26:18.577Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/blogpost-engrmarufw [none]
+[debug] [2023-10-04T04:26:19.312Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/blogpost-engrmarufw 200
+[debug] [2023-10-04T04:26:19.312Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/blogpost-engrmarufw {"projectId":"blogpost-engrmarufw","projectNumber":"204094740957","displayName":"blogpost-engrmarufw","name":"projects/blogpost-engrmarufw","resources":{"hostingSite":"blogpost-engrmarufw"},"state":"ACTIVE","etag":"1_d721ea61-c1ef-4768-a49e-845f1bc7a497"}
+[debug] [2023-10-04T04:26:27.277Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/blogpost-engrmarufw/sites pageToken=&pageSize=10
+[debug] [2023-10-04T04:26:28.582Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/blogpost-engrmarufw/sites 200
+[debug] [2023-10-04T04:26:28.583Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/blogpost-engrmarufw/sites {"sites":[{"name":"projects/blogpost-engrmarufw/sites/blogpost-engrmarufw","defaultUrl":"https://blogpost-engrmarufw.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2023-10-04T04:26:28.585Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/blogpost-engrmarufw/sites 
+[debug] [2023-10-04T04:26:29.770Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/blogpost-engrmarufw/sites 200
+[debug] [2023-10-04T04:26:29.771Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/blogpost-engrmarufw/sites {"sites":[{"name":"projects/blogpost-engrmarufw/sites/blogpost-engrmarufw","defaultUrl":"https://blogpost-engrmarufw.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2023-10-04T04:26:29.772Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/blogpost-engrmarufw/webApps/-/config [none]
+[debug] [2023-10-04T04:26:30.487Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/blogpost-engrmarufw/webApps/-/config 200
+[debug] [2023-10-04T04:26:30.487Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/blogpost-engrmarufw/webApps/-/config {"projectId":"blogpost-engrmarufw","storageBucket":"blogpost-engrmarufw.appspot.com","apiKey":"AIzaSyDcSfw9827rtIUqU7LXpYP5F2jX9yPa_AI","authDomain":"blogpost-engrmarufw.firebaseapp.com","messagingSenderId":"204094740957"}
+[info] 
+   Thank you for trying our early preview of Next.js support on Firebase Hosting.
+   During the preview, support is best-effort and breaking changes can be expected. Proceed with caution.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/nextjs
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
+[info]    Creating an optimized production build ...
+
+[info] 
+
+[info] 🌼 daisyUI 3.8.2 https://daisyui.com
+
+[info] ╰╮
+
+[info]  ╰─ ✔︎ [ 2 ] themes are enabled. You can add more themes or make your own theme:
+      https://daisyui.com/docs/themes
+
+    ❤︎ Support daisyUI: https://opencollective.com/daisyui
+
+
+[info]  ✓ Compiled successfully
+
+[info]    Linting and checking validity of types ...
+
+[info] 
+Failed to compile.
+
+./src/app/about/page.jsx
+13:21  Warning: Image elements must have an alt prop, either with meaningful text, or an empty string for decorative images.  jsx-a11y/alt-text
+
+./src/app/blog/page.jsx
+30:33  Warning: Image elements must have an alt prop, either with meaningful text, or an empty string for decorative images.  jsx-a11y/alt-text
+
+./src/app/blog/[id]/page.jsx
+32:37  Warning: Image elements must have an alt prop, either with meaningful text, or an empty string for decorative images.  jsx-a11y/alt-text
+40:21  Warning: Image elements must have an alt prop, either with meaningful text, or an empty string for decorative images.  jsx-a11y/alt-text
+
+./src/app/contact/page.jsx
+11:20  Error: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`.  react/no-unescaped-entities
+18:29  Warning: Image elements must have an alt prop, either with meaningful text, or an empty string for decorative images.  jsx-a11y/alt-text
+
+./src/app/dashboard/(auth)/login/page.jsx
+20:27  Error: React Hook "useState" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?  react-hooks/rules-of-hooks
+
+./src/app/page.jsx
+13:9  Warning: Image elements must have an alt prop, either with meaningful text, or an empty string for decorative images.  jsx-a11y/alt-text
+
+./src/app/portfolio/[category]/page.jsx
+28:25  Warning: Image elements must have an alt prop, either with meaningful text, or an empty string for decorative images.  jsx-a11y/alt-text
+
+./src/components/Footer/Footer.jsx
+11:13  Warning: Image elements must have an alt prop, either with meaningful text, or an empty string for decorative images.  jsx-a11y/alt-text
+12:13  Warning: Image elements must have an alt prop, either with meaningful text, or an empty string for decorative images.  jsx-a11y/alt-text
+13:13  Warning: Image elements must have an alt prop, either with meaningful text, or an empty string for decorative images.  jsx-a11y/alt-text
+14:13  Warning: Image elements must have an alt prop, either with meaningful text, or an empty string for decorative images.  jsx-a11y/alt-text
+
+./src/components/Navbar/Navbar.jsx
+52:37  Error: Missing "key" prop for element in iterator  react/jsx-key
+66:33  Error: Missing "key" prop for element in iterator  react/jsx-key
+
+info  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/basic-features/eslint#disabling-rules
+
+[debug] [2023-10-04T04:27:31.066Z] Error: ENOENT: no such file or directory, open 'C:\projects\nextjs\my-app\.next\export-marker.json'
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-10-04T04:29:06.626Z] ----------------------------------------------------------------------
+[debug] [2023-10-04T04:29:06.630Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Maruf Ahamed\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2023-10-04T04:29:06.631Z] CLI Version:   12.6.1
+[debug] [2023-10-04T04:29:06.631Z] Platform:      win32
+[debug] [2023-10-04T04:29:06.632Z] Node Version:  v18.18.0
+[debug] [2023-10-04T04:29:06.633Z] Time:          Wed Oct 04 2023 10:29:06 GMT+0600 (Bangladesh Standard Time)
+[debug] [2023-10-04T04:29:06.634Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-10-04T04:29:06.765Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-10-04T04:29:06.766Z] > authorizing via signed-in user (engrmarufw@gmail.com)
+[debug] [2023-10-04T04:29:06.766Z] [iam] checking project blogpost-engrmarufw for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-10-04T04:29:06.769Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/blogpost-engrmarufw:testIamPermissions [none]
+[debug] [2023-10-04T04:29:06.769Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/blogpost-engrmarufw:testIamPermissions x-goog-quota-user=projects/blogpost-engrmarufw
+[debug] [2023-10-04T04:29:06.770Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/blogpost-engrmarufw:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-10-04T04:29:08.498Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/blogpost-engrmarufw:testIamPermissions 200
+[debug] [2023-10-04T04:29:08.499Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/blogpost-engrmarufw:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-10-04T04:29:08.502Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/blogpost-engrmarufw [none]
+[debug] [2023-10-04T04:29:09.108Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/blogpost-engrmarufw 200
+[debug] [2023-10-04T04:29:09.110Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/blogpost-engrmarufw {"projectId":"blogpost-engrmarufw","projectNumber":"204094740957","displayName":"blogpost-engrmarufw","name":"projects/blogpost-engrmarufw","resources":{"hostingSite":"blogpost-engrmarufw"},"state":"ACTIVE","etag":"1_d721ea61-c1ef-4768-a49e-845f1bc7a497"}
+[debug] [2023-10-04T04:29:21.289Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/blogpost-engrmarufw/sites pageToken=&pageSize=10
+[debug] [2023-10-04T04:29:22.741Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/blogpost-engrmarufw/sites 200
+[debug] [2023-10-04T04:29:22.743Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/blogpost-engrmarufw/sites {"sites":[{"name":"projects/blogpost-engrmarufw/sites/blogpost-engrmarufw","defaultUrl":"https://blogpost-engrmarufw.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2023-10-04T04:29:22.757Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/blogpost-engrmarufw/sites 
+[debug] [2023-10-04T04:29:24.041Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/blogpost-engrmarufw/sites 200
+[debug] [2023-10-04T04:29:24.042Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/blogpost-engrmarufw/sites {"sites":[{"name":"projects/blogpost-engrmarufw/sites/blogpost-engrmarufw","defaultUrl":"https://blogpost-engrmarufw.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2023-10-04T04:29:24.067Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/blogpost-engrmarufw/webApps/-/config [none]
+[debug] [2023-10-04T04:29:24.857Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/blogpost-engrmarufw/webApps/-/config 200
+[debug] [2023-10-04T04:29:24.857Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/blogpost-engrmarufw/webApps/-/config {"projectId":"blogpost-engrmarufw","storageBucket":"blogpost-engrmarufw.appspot.com","apiKey":"AIzaSyDcSfw9827rtIUqU7LXpYP5F2jX9yPa_AI","authDomain":"blogpost-engrmarufw.firebaseapp.com","messagingSenderId":"204094740957"}
+[info] 
+   Thank you for trying our early preview of Next.js support on Firebase Hosting.
+   During the preview, support is best-effort and breaking changes can be expected. Proceed with caution.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/nextjs
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
+[info]    Creating an optimized production build ...
+
+[info]  ✓ Compiled successfully
+
+[info]    Linting and checking validity of types ...
+
+[info]  ⚠ No ESLint configuration detected. Run next lint to begin setup
+
+[info]    Collecting page data ...
+
+[info] 
+
+[info] > Build error occurred
+Error: Page "/api/posts/[id]" is missing "generateStaticParams()" so it cannot be used with "output: export" config.
+    at C:\projects\nextjs\my-app\node_modules\next\dist\build\index.js:964:59
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Span.traceAsyncFn (C:\projects\nextjs\my-app\node_modules\next\dist\trace\trace.js:105:20)
+    at async Promise.all (index 7)
+    at async C:\projects\nextjs\my-app\node_modules\next\dist\build\index.js:857:17
+    at async Span.traceAsyncFn (C:\projects\nextjs\my-app\node_modules\next\dist\trace\trace.js:105:20)
+    at async C:\projects\nextjs\my-app\node_modules\next\dist\build\index.js:796:124
+    at async Span.traceAsyncFn (C:\projects\nextjs\my-app\node_modules\next\dist\trace\trace.js:105:20)
+    at async build (C:\projects\nextjs\my-app\node_modules\next\dist\build\index.js:184:29)
+    at async main (C:\projects\nextjs\my-app\node_modules\next\dist\bin\next:156:5)
+
+[debug] [2023-10-04T04:30:38.883Z] Error: ENOENT: no such file or directory, open 'C:\projects\nextjs\my-app\.next\export-marker.json'
+[error] 
+[error] Error: An unexpected error has occurred.
